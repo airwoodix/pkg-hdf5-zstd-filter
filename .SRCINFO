@@ -9,6 +9,7 @@ pkgbase = hdf5-zstd-filter-git
 	makedepends = git
 	makedepends = cmake
 	depends = hdf5
+	depends = zstd
 	source = hdf5-zstd-filter::git+https://github.com/aparamon/HDF5Plugin-Zstandard
 	md5sums = SKIP
 	sha256sums = SKIP
